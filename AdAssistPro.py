@@ -52,8 +52,8 @@ class MainWindow(QMainWindow):
         self.button1.clicked.connect(self.copy_0_23)
 
         # Create a button to copy "0.18" to the clipboard
-        self.button2 = QPushButton("Copy 0.18", self)
-        self.button2.clicked.connect(self.copy_0_18)
+        #self.button2 = QPushButton("Copy 0.18", self)
+        #self.button2.clicked.connect(self.copy_0_18)
 
         # Set up the layout of the user interface
         self.combo_box.move(10, 10)
@@ -64,7 +64,7 @@ class MainWindow(QMainWindow):
         self.esn_button.move(120, 170)
         self.text_edit.setGeometry(10, 220, 330, 220)
         self.button1.setGeometry(10, 490, 100, 30)
-        self.button2.setGeometry(120, 490, 100, 30)
+        #self.button2.setGeometry(120, 490, 100, 30)
         self.text_edit_copy_button.setGeometry(10, 450, 50, 30)
 
         
