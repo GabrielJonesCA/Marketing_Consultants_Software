@@ -13,7 +13,7 @@ frame = customtkinter.CTkFrame(master=root)
 frame.pack(pady=20, padx=60, fill="both", expand=True)
 
 entry1 = customtkinter.CTkEntry(master= frame, placeholder_text="List Name")
-entry1.pack(pady=12, padx=10)
+entry1.pack(pady=12, padx=0)
 
 entry2 = customtkinter.CTkEntry(master= frame, placeholder_text="Leads")
 entry2.pack(pady=12, padx=10)
