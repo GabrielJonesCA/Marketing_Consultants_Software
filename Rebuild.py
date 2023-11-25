@@ -39,7 +39,7 @@ class MainWindow(customtkinter.CTk):
         # Create a button to copy "0.23" to the clipboard
         self.button1 = customtkinter.CTkButton(self, text="Copy 0.23", command=self.copy_0_23)
 
-        # Set up the layout of the user interface
+        #layout of the user interface
         self.combo_box.grid(row=0, column=0, padx=10, pady=10)
         self.check_box.grid(row=1, column=0, padx=10, pady=10)
         self.line_edit.grid(row=2, column=0, padx=10, pady=10)
