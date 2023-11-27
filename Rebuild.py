@@ -31,8 +31,8 @@ class MainWindow(customtkinter.CTk):
 
         # Create a text edit for the additional text box
         self.text_edit = customtkinter.CTkTextbox(self, width=40, height=10)
-        self.text_edit.bind("<KeyRelease>", self.update_title)  # Assuming you want to update title when text changes
-
+        self.text_edit.bind("<KeyRelease>", self.update_title)  
+        
         # Create a button to copy the contents of the text edit to the clipboard
         self.text_edit_copy_button = customtkinter.CTkButton(self, text="Copy", command=self.copy_text_edit)
 
