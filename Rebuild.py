@@ -81,11 +81,7 @@ class MainWindow(customtkinter.CTk):
             "TR": "B00BNPFXK8",
             "TGWSA": "B08NGRJ278",
             "KOA": "B09RN6G8GG",
-            "AHHTA": "B00ADAZ7FU",
-            "IIKY": "B00RNHE4E6",
-            "GUE": "B089FN9Y1Z",
-            "AFB": "B0973KK3VD",
-            "SL": "B08HG1SHW6"
+            
         }
 
         esn_dictP = {
@@ -93,11 +89,7 @@ class MainWindow(customtkinter.CTk):
             "TR": "148196156X",
             "TGWSA": "B08PJNXYMS",
             "KOA": "B0B1CHX4QY",
-            "AHHTA": "1481125397",
-            "IIKY": "150868068X",
-            "GUE": "B08B1LN3VK",
-            "AFB": "B09F1CVXVK",
-            "SL": "B08HGTSXNT"
+            
         }
 
         current_text = self.combo_box.get()
