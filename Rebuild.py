@@ -113,7 +113,7 @@ class MainWindow(customtkinter.CTk):
             self.label.set_text("No text to copy")
 
     def copy_0_23(self):
-        # Copy "0.23" to the clipboard
+
         self.clipboard_set_text("0.23")
 
 
