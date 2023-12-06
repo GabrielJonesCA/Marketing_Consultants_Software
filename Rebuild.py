@@ -60,7 +60,7 @@ class MainWindow(customtkinter.CTk):
         # Get the value from the line edit
         fourth_part = self.line_edit.get()
 
-        # Generate the full campaign title
+        # Generate the full title
         title = f"{first_part} {second_part}SPK G1 {fourth_part}"
 
         # Update the label with the generated title
